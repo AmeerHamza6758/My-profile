@@ -289,7 +289,7 @@ p {
 #services .service-item {
 	flex-basis: 80%;
 	display: flex;
-	height: 350px;
+	height: 400px;
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
@@ -519,10 +519,13 @@ p {
 	/* height: 100px;  */
 	/* margin-bottom: 30px; */
 }
- #footer .social-item {
-	/* height: 100px; */
-	/* width: 100px; */
-	margin: 0 5px;
+ #footer .social-item >a {
+	/* height: 200px; */
+	/* width: 200px; */
+	font-size: 25px;
+	color: rgb(54, 54, 255);
+	margin: 5px 15px;
+	
 }
 #footer .social-item img {
 	filter: grayscale(1);
@@ -591,6 +594,8 @@ p {
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
+		/* overflow:scroll; */
+		/* height: 40vh; */
 	}
 	/* End Services Section */
 
@@ -701,7 +706,7 @@ p {
 	/* End header */
 
 	#services .service-bottom .service-item {
-		flex-basis: 22%;
+		/* flex-basis: 22%; */
 		margin: 1.5%;
 	}
 }
